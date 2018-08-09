@@ -1,3 +1,5 @@
+Forked version with support for flags when using `compose down`
+
 # Manage Docker-Compose via Node.js
 
 `docker-compose` is a small library that allows you to run [docker-compose](https://docs.docker.com/compose/)(which is still required) via Node.js. This is useful to bootstrap test environments. You might also generate your `docker-compose.yml` files using [composefile](https://www.npmjs.com/package/composefile).
