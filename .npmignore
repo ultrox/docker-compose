@@ -1,6 +1,7 @@
-# ignore all files in the test/ directory
-test/
-
-# ignore ESLint and EditorConfig
+test
+.circleci
 .editorconfig
-.eslintrc.json
+readme.md
+LICENSE
+.gitignore
+eslintrc.json
