@@ -79,9 +79,12 @@ const up = function (options) {
  * @param {boolean} [options.log]
  * @param {?(string|string[])} [options.config]
  * @param {?object} [options.env]
+ * @param {arr} arg ["-v"]
  */
-const down = function (options) {
-  return execCompose('down', [], options);
+
+const down = function (options, arg) {
+  var flags = arg || [];
+  return execCompose('down', flags, options);
 };
 
 /**
